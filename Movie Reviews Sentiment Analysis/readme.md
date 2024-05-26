@@ -11,21 +11,21 @@ The objective of this project is to develop a sentiment analysis model that accu
 ### Data Collection and Preprocessing:
 - The IMDB movie reviews dataset from Kaggle is used as the primary data source.
 - The text data is preprocessed by lowercasing, removing HTML tags, urls, emails, formatting, special characters, punctuation, stopwords, and performing tokenization.
-Text normalization technique stemming is applied to reduce word variations.
-Feature Engineering and Text Vectorization:
-Various text vectorization methods are explored, including Bag-of-Words (BoW), N-grams, and TF-IDF (Term Frequency-Inverse Document Frequency).
-These methods convert text data into numerical vectors suitable for machine learning models.
-Model Building:
-Several machine learning algorithms are experimented with, including logistic regression, Bernoulli and multinomial naive bayes, random forests, and gradient boosting models (e.g., xgboost, lightgbm).
-Model Evaluation:
-The performance of each model is evaluated using metrics such as accuracy, F1-score and confusion matrix.
-Cross-validation techniques are used to assess the generalization ability of the models.
-Web Application Development:
-Once a satisfactory model is trained, a web application is developed using Flask, a lightweight web framework for Python.
-The web app allows users to input a movie review text, upon which the trained model predicts the sentiment (positive or negative) of the review.
-The app provides a user-friendly interface for real-time sentiment analysis of movie reviews.
-Results:
-The model achieves satisfactory performance in predicting the sentiment of movie reviews.
-The web application provides a convenient way for users to analyze the sentiment of movie reviews on-the-fly.
-Conclusion:
+- Text normalization technique stemming is applied to reduce word variations.
+### Feature Engineering and Text Vectorization:
+- Various text vectorization methods are explored, including Bag-of-Words (BoW), N-grams, and TF-IDF (Term Frequency-Inverse Document Frequency).
+- These methods convert text data into numerical vectors suitable for machine learning models.
+### Model Building:
+- Several machine learning algorithms are experimented with, including logistic regression, Bernoulli and multinomial naive bayes, random forests, and gradient boosting models (e.g., xgboost, lightgbm).
+### Model Evaluation:
+- The performance of each model is evaluated using metrics such as accuracy, F1-score and confusion matrix.
+- Cross-validation techniques are used to assess the generalization ability of the models.
+### Web Application Development:
+- Once a satisfactory model is trained, a web application is developed using Flask, a lightweight web framework for Python.
+- The web app allows users to input a movie review text, upon which the trained model predicts the sentiment (positive or negative) of the review.
+- The app provides a user-friendly interface for real-time sentiment analysis of movie reviews.
+## Results:
+- The model achieves satisfactory performance in predicting the sentiment of movie reviews.
+- The web application provides a convenient way for users to analyze the sentiment of movie reviews on-the-fly.
+## Conclusion:
 In conclusion, this project demonstrates the successful application of NLP techniques for sentiment analysis of IMDB movie reviews. By exploring various text preprocessing methods, text vectorization techniques, and machine learning models, we have developed an effective sentiment analysis model. The web application built using Flask provides a user-friendly interface for real-time sentiment analysis, which can be useful for movie enthusiasts, critics, and filmmakers alike.
