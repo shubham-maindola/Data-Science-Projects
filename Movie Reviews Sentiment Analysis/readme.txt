@@ -1,6 +1,6 @@
 Test the app - http://ec2-16-171-68-231.eu-north-1.compute.amazonaws.com:8000/predict
 
-IMDB Movie Reviews Sentiment Analysis Project
+**IMDB Movie Reviews Sentiment Analysis Project**
 Introduction:
 Sentiment analysis, a subfield of natural language processing (NLP), aims to determine the sentiment expressed in a piece of text, whether it's positive or negative. In this project, we leverage the IMDB movie reviews dataset from Kaggle to predict the sentiment of movie reviews. The dataset contains a large number of reviews along with their corresponding sentiment labels.
 
