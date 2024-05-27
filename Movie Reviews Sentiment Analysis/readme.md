@@ -9,7 +9,7 @@ The objective of this project is to develop a sentiment analysis model that accu
 
 ## Methodology:
 ### Data Collection and Preprocessing:
-- The IMDB movie reviews dataset from Kaggle is used as the primary data source.
+- The IMDB movie reviews dataset from Kaggle is used as the primary data source. Dataset - https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
 - The text data is preprocessed by lowercasing, removing HTML tags, URLs, emails, formatting, special characters, punctuation, stopwords, and performing tokenization.
 - Text normalization technique stemming is applied to reduce word variations.
 ### Feature Engineering and Text Vectorization:
