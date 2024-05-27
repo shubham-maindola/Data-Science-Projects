@@ -1,2 +1,2 @@
 # Data-Science-Projects
-This repository contains all the projects that I do in machine learning and data science.
+This repository contains some of the projects that I do in machine learning and data science.
