@@ -5,13 +5,13 @@ Given a directed social graph, predict missing links to recommend users (Link pr
 ### Data Overview
 
 The dataset is taken from Facebook's recruiting challenge on Kaggle - https://www.kaggle.com/c/FacebookRecruiting <br>
-The dataset contains two columns source and destination eac edge in the graph.
+The dataset contains two columns source and destination for an edge in the graph.
 - source_node (int64)
 - destination_node (int64)
 
 ### Mapping the Problem into a Supervised Learning Problem
 
-Generated training samples of good and bad links from the given directed graph and for each link got some features like no. of followers, are they followed back, page rank, Katz score, Adar index, some svd features of adj matrix, some weight features, etc. and trained ml model based on these features to predict link.
+Generated training samples of good and bad links from the given directed graph and for each link got some features like no. of followers, are they followed back, page rank, Katz score, Adar index, some SVD features of adj matrix, some weight features, etc. and trained ml model based on these features to predict link.
 
 ### Business Objectives and Constraints
 
