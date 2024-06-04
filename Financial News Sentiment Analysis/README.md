@@ -16,15 +16,15 @@ The financial news headlines dataset is obtained from Kaggle, ensuring a diverse
 NLTK library is employed for text preprocessing tasks, including tokenization, removing stopwords, and stemming to clean the textual data and prepare it for sentiment analysis.
 
 ### Feature Engineering: 
-The preprocessed headlines are then converted into numerical features that can be fed into machine learning algorithms. Techniques such as TF-IDF (Term Frequency-Inverse Document Frequency) vectorization may be employed for this purpose.
+The preprocessed headlines are then converted into numerical features that can be fed into machine learning algorithms. Bag of words and Tf-IDF are employed for this purpose.
 
 ### Model Training: 
-A supervised learning model, such as Support Vector Machines (SVM), Naive Bayes, or Random Forest, is trained on the labeled data to classify the sentiment of financial news headlines accurately.
+Supervised machine learning models, such as Support Vector Machines (SVM), Naive Bayes, Decision Tree, K-Nearest Neighbors, Logistic Regression, and Gradient Boosting, are used to train on the labeled data to classify the sentiment of financial news headlines accurately.
 
 ### Evaluation: 
-The performance of the trained model is evaluated using metrics such as accuracy, precision, recall, and F1-score to assess its effectiveness in predicting sentiment.
+The performance of the trained model is evaluated using metrics such as accuracy, confusion matrix and precision, recall, and F1-score to assess its effectiveness in predicting sentiment.
 
-### Deployment and Integration: 
+## Conclusion: 
 Once the model is trained and evaluated, it can be deployed into a real-world application or integrated into trading platforms to provide insights into the sentiment of financial news.
 
 By predicting sentiment from financial news headlines, investors and traders can gain valuable insights into market sentiment trends, helping them make more informed decisions and potentially gain a competitive edge in the financial markets.
