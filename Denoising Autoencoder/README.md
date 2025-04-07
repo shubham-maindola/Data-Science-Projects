@@ -43,10 +43,10 @@ This project implements a **denoising autoencoder** trained on a subset of **100
        return noisy_image
 
    input_transform = transforms.Compose([
-    transforms.Resize((256, 256)), 
-    transforms.GaussianBlur(kernel_size=5, sigma=(0.1, 2.0)), 
-    transforms.Lambda(lambda img: add_salt_pepper_noise(np.array(img), salt_prob=0.005, pepper_prob=0.005)), 
-])
+       transforms.Resize((256, 256)), 
+       transforms.GaussianBlur(kernel_size=5, sigma=(0.1, 2.0)), 
+       transforms.Lambda(lambda img: add_salt_pepper_noise(np.array(img), salt_prob=0.005, pepper_prob=0.005)), 
+       ])
 
    with torch.no_grad():
         clean_image = Image.open(file_path).convert("RGB")
